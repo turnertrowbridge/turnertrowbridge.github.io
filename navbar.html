@@ -13,29 +13,68 @@
 <script>retrieveSelected()</script>
 
 <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Turner's Website</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="nav nav-pills me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" id="pills-home" data-toggle="pill" href="index.html" role="tab" aria-controls="pills-home" aria-selected="true" onClick="return saveTabSelect(this);">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" id="pills-about-me" data-toggle="pill" href="about-me.html" role="tab" aria-controls="pills-about-me" aria-selected="true" onClick="return saveTabSelect(this);">About Me</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+    <div class="container-fluid">
+        <a class="navbar-brand" id="pills-brand" href="index.html"
+           onClick="return saveTabSelect(document.getElementById('pills-home'));">Turner's Website</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav nav-pills me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-home" data-toggle="pill" href="index.html" role="tab"
+                       aria-controls="pills-home" aria-selected="true" onClick="return saveTabSelect(this);">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-projects" data-toggle="pill" href="projects.html" role="tab"
+                       aria-controls="pills-projects" aria-selected="true" onClick="return saveTabSelect(this);">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-resume" data-toggle="pill" href="resume.html" role="tab"
+                       aria-controls="pills-resume" aria-selected="true"
+                       onClick="return saveTabSelect(this);">Resume</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Links
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <div style="display: flex; justify-content: center; align-items: center;">
+                                <img class="logos" src="linkedin-logo.png" alt="LinkedIn.com Logo">
+                            <a class="dropdown-item" href="https://linkedin.com/in/turnertrowbridge/" target="_blank"
+                               rel="noreferrer noopener">LinkedIn</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div style="display: flex; justify-content: center; align-items: center;">
+                                <img class="logos" src="github-logo.png" alt="GitHub.com Logo">
+                            <a class="dropdown-item" href="https://github.com/turnertrowbridge/" target="_blank"
+                               rel="noreferrer noopener">GitHub</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div style="display: flex; flex; justify-content: center; align-items: center;">
+                                <img class="logos" src="thm-logo.png" alt="TryHackMe.com Logo">
+                                <a class="dropdown-item" href="https://tryhackme.com/p/turnertrowbridge/" target="_blank"
+                                   rel="noreferrer noopener">TryHackMe</a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-about-me" data-toggle="pill" href="about-me.html" role="tab"
+                       aria-controls="pills-about-me" aria-selected="true" onClick="return saveTabSelect(this);">About
+                        Me</a>
+                </li>
+            </ul>
+            <!--      <form class="d-flex" role="search">-->
+            <!--        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">-->
+            <!--        <button class="btn btn-outline-success" type="submit">Search</button>-->
+            <!--      </form>-->
+        </div>
     </div>
-  </div>
 </nav>
 

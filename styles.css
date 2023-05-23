@@ -1,0 +1,14 @@
+/*Selector {*/
+/*    Property: value;*/
+/*}*/
+
+body {
+    background-color: #343a40; /* Set a dark background color */
+    color: white; /* Set a light text color */
+}
+
+.logos {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
