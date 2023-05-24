@@ -18,10 +18,14 @@ body::before {
 }
 
 
+#logos-org{
+    display: flex;
+    flex-direction: row;
 
+}
 .logos {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     margin-left: 5px;
 }
 
