@@ -1,11 +1,3 @@
-body {
-    background: url(../images/hakan-toker-BhTgjLZ_v2U-unsplash.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 .Welcome {
     font-family: Playfair, serif;
     display: flex;
