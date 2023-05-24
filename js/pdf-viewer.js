@@ -9,7 +9,7 @@ var pdfjsLib = window['pdfjs-dist/build/pdf'];
 pdfjsLib.GlobalWorkerOptions.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.worker.js';
 
 // Asynchronous download of PDF
-var loadingTask = pdfjsLib.getDocument('TrowbridgeTurner_Resume.pdf');
+var loadingTask = pdfjsLib.getDocument('../pdf/TrowbridgeTurner_Resume.pdf');
 loadingTask.promise.then(function(pdf) {
     console.log('PDF loaded');
 
