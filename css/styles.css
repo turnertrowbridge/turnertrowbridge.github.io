@@ -1,14 +1,21 @@
-/*Selector {*/
-/*    Property: value;*/
-/*}*/
-
 body {
     background-color: #343a40; /* Set a dark background color */
     color: white; /* Set a light text color */
 }
+
+body {
+    background: url(../images/hakan-toker-BhTgjLZ_v2U-unsplash.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 
 .logos {
     width: 20px;
     height: 20px;
     margin-left: 5px;
 }
+
+
