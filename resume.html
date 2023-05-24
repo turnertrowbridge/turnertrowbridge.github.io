@@ -8,10 +8,13 @@
           integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.6.172/web/pdf_viewer.min.css">
     <link href="styles.css" rel="stylesheet">
+    <link href="pdf-viewer-styles.css" rel="stylesheet">
 </head>
 <body>
 <div id="navbar-placeholder"></div>
-
+<div id="pdf-container">
+    <canvas id="pdf-viewer"></canvas>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
@@ -27,5 +30,7 @@
         crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.6.172/build/pdf.min.js"
         integrity="sha256-zCksFuEhhE2AoXNPC+2DwuERfzXxh0Ei9BK6Qf9qRmY=" crossorigin="anonymous"></script>
+<script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
+<script src="pdf-viewer.js"></script>
 </body>
 </html>

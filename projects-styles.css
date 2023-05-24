@@ -1,0 +1,9 @@
+.carousel-container {
+    max-width: 600px; /* Adjust the maximum width as desired */
+    margin: 0 auto; /* Center the carousel horizontally */
+}
+
+.carousel-container .carousel-item img {
+    max-height: 300px; /* Adjust the maximum height as desired */
+    object-fit: contain; /* Maintain the aspect ratio and fit the images within the container */
+}
