@@ -1,0 +1,8 @@
+[
+  {
+    "project_name": "Project 1",
+    "description" : "Description of this project.",
+    "image_path": "../../logo.svg",
+    "link": "https://google.com"
+  }
+]
