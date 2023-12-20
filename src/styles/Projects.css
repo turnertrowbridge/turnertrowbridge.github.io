@@ -1,12 +1,11 @@
 .projects-container {
     display: flex;
     flex-wrap: wrap;
-    margin-right: 4ch;
 }
 
 .project-card {
-    width: 18rem;
-    margin-bottom: 1rem;
+    flex: 1 0 calc(33.333% - 1rem); /* Allow cards to grow, but don't shrink below one-third width */
+    margin: 0.5rem; /* Adjust margin as needed */
 }
 
 .project-image {

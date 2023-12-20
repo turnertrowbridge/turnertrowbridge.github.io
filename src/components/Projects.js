@@ -1,39 +1,11 @@
 import React from "react";
 import { Card, Button } from 'react-bootstrap';
 import '../styles/Projects.css';
+import projectsData from "./ProjectsPages/projects.json";
 
  function Projects() {
-     const projectsData = [
-         {
-             id: 1,
-             title: 'Project 1',
-             image: 'https://placekitten.com/200/200', // Replace with your image URL
-             text: 'Description of Project 1.',
-             link: 'https://example.com/project1',
-         },
-         {
-             id: 1,
-             title: 'Project 1',
-             image: 'https://placekitten.com/200/200', // Replace with your image URL
-             text: 'Description of Project 1.',
-             link: 'https://example.com/project1',
-         },
-         {
-             id: 1,
-             title: 'Project 1',
-             image: 'https://placekitten.com/200/200', // Replace with your image URL
-             text: 'Description of Project 1.',
-             link: 'https://example.com/project1',
-         },
-         {
-             id: 1,
-             title: 'Project 1',
-             image: 'https://placekitten.com/200/200', // Replace with your image URL
-             text: 'Description of Project 1.',
-             link: 'https://example.com/project1',
-         }
-     ]
-    return (
+
+     return (
         <div className="container text-center projects-container">
             <div className="row gy-3 mt-3">
                 {projectsData.map((project) => (

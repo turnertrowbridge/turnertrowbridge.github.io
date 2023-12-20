@@ -1,8 +1,51 @@
 [
   {
-    "project_name": "Project 1",
-    "description" : "Description of this project.",
-    "image_path": "../../logo.svg",
-    "link": "https://google.com"
+    "id": 1,
+    "title": "Project 1",
+    "image": "https://placekitten.com/200/200",
+    "text": "Description of Project 1.",
+    "link": "https://example.com/project1"
+  },
+  {
+    "id": 1,
+    "title": "Project 1",
+    "image": "https://placekitten.com/200/200",
+    "text": "Description of Project 1.",
+    "link": "https://example.com/project1"
+  },
+  {
+    "id": 1,
+    "title": "Project 1",
+    "image": "https://placekitten.com/200/200",
+    "text": "Description of Project 1.",
+    "link": "https://example.com/project1"
+  },
+  {
+    "id": 1,
+    "title": "Project 1",
+    "image": "https://placekitten.com/200/200",
+    "text": "Description of Project 1.",
+    "link": "https://example.com/project1"
+  },
+  {
+    "id": 1,
+    "title": "Project 1",
+    "image": "https://placekitten.com/200/200",
+    "text": "Description of Project 1.",
+    "link": "https://example.com/project1"
+  },
+  {
+    "id": 1,
+    "title": "Project 1",
+    "image": "https://placekitten.com/200/200",
+    "text": "Description of Project 1.",
+    "link": "https://example.com/project1"
+  },
+  {
+    "id": 1,
+    "title": "Project 1",
+    "image": "https://placekitten.com/200/200",
+    "text": "Description of Project 1.",
+    "link": "https://example.com/project1"
   }
 ]
