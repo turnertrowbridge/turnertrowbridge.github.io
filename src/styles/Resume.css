@@ -1,0 +1,15 @@
+/* Resume.css */
+
+.resume-container {
+    height: 100vh; /* Use the full height of the viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.resume-iframe {
+    border: none;
+    width: 100%;
+    /* max-width: 800px; */ /* Set a maximum width for the iframe if needed */
+}
