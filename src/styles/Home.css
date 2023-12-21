@@ -1,0 +1,24 @@
+.Welcome {
+    font-family: Playfair, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 100vh;
+    text-align: center;
+}
+
+.Welcome h1 {
+    width: 100%;
+    font-size: 100px;
+    color: #57eee1;
+    margin-top: -400px;
+    font-style: italic;
+}
+
+.Welcome p {
+    width: 100%;
+    font-size: 30px;
+    color: #3bcb7e;
+
+}

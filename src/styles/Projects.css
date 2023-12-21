@@ -4,12 +4,9 @@
 }
 
 .project-card {
-    flex: 1 0 calc(33.333% - 1rem); /* Allow cards to grow, but don't shrink below one-third width */
-    margin: 0.5rem; /* Adjust margin as needed */
+    height: 80%;
+    width: 80%;
 }
 
 .project-image {
-    object-fit: cover;
-    width: 100%;
-    height: 200px; /* Adjust as needed */
 }

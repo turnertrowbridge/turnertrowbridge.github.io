@@ -7,10 +7,10 @@ import projectsData from "./ProjectsPages/projects.json";
 
      return (
         <div className="container text-center projects-container">
-            <div className="row gy-3 mt-3">
+            <div className="row justify-content-start">
                 {projectsData.map((project) => (
-                    <div key={project.id} className="col-sm">
-                        <Card className="h-100">
+                    <div key={project.id} className="col-md-4 mb-3">
+                        <Card className="project-card d-inline-block br-3 p-3 m-2 border border-2 shadow-lg h-100">
                             <Card.Img
                                 variant="top"
                                 src={project.image}

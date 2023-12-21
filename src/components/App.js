@@ -5,10 +5,7 @@ import Projects from './Projects';
 import Resume from './Resume';
 import Contact from "./Contact";
 import MyNavbar from "./MyNavbar";
-
-function Home() {
-    return <h2>Home</h2>
-}
+import Home from "./Home";
 
 function App() {
     return (
