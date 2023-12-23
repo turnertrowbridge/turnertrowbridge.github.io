@@ -1,8 +1,13 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Iframe from 'react-iframe';
 import "../styles/Resume.css"
 
 function Resume() {
+
+    useEffect(() => {
+        document.title = "Resume - Turner's Website";
+    }, []);
+
     return (
         <div className="resume-container">
             <Iframe

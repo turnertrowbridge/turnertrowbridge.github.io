@@ -6,6 +6,9 @@ const Scoreboard = () => {
     const [repos, setRepos] = useState([]);
 
     useEffect(() => {
+
+        document.title = "Scoreboard Project - Turner's Website";
+
         const fetchData = async () => {
             try {
                 const fetchedRepos = await Promise.all(

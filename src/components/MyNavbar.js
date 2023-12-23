@@ -14,8 +14,8 @@ function MyNavbar() {
                     <Nav.Link href="/contact">Contact</Nav.Link>
                 </Nav>
                 <Nav className="justify-content-end">
-                    <Nav.Link href="/">Github</Nav.Link>
-                    <Nav.Link href="/">LinkedIn</Nav.Link>
+                    <Nav.Link href="https://github.com/turnertrowbridge" target="_blank">Github</Nav.Link>
+                    <Nav.Link href="https://www.linkedin.com/in/turnertrowbridge/" target="_blank">LinkedIn</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

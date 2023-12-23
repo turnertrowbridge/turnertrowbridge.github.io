@@ -9,6 +9,8 @@ function Projects() {
     const [projects, setProjects] = useState([]);
 
     useEffect(() => {
+        document.title = "Projects - Turner's Website";
+
         const fetchData = async () => {
             try {
                 const username = repoInfo[0].username;
