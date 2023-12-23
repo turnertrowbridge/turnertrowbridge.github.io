@@ -11,6 +11,7 @@
     "updated_at": "",
     "favorite": true,
     "description": "Test",
-    "pageLink": "#/projects/scoreboard"
+    "pageLink": "#/projects/scoreboard",
+    "language": "Python, C++"
   }
 ]

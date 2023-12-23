@@ -83,6 +83,11 @@ function Projects() {
                                 <Card.Title>{project.favorite ? "★" : ""}{project.name}</Card.Title>
                                 <Card.Text>{project.description}</Card.Text>
                                 <p>{formatDate(project.updated_at)}</p>
+                                {project.language && (
+                                    <Card.Text>
+                                        Language: {project.language}
+                                    </Card.Text>
+                                )}
                                 <Button variant="primary"
                                         href={project.pageLink ? project.pageLink : project.html_url}
                                         target={project.pageLink ? null : "_blank"}
