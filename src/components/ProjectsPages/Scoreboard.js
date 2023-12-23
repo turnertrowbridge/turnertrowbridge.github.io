@@ -13,7 +13,6 @@ const Scoreboard = () => {
                         const response = await fetch(`https://api.github.com/repos/${username}/${repo}`);
                         if (response.ok) {
                             const data = await response.json();
-                            console.log(data);
                             return {
                                 id: data.id,
                                 title: data.name,
