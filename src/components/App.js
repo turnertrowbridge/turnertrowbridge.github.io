@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Projects from './Projects';
 import Resume from './Resume';
 import Contact from "./Contact";
@@ -20,7 +20,6 @@ function App() {
                     <Route path="/resume" element={<Resume/>}></Route>
                     <Route path="/contact" element={<Contact/>}></Route>
                     <Route path = "*" element={<Navigate to="/" />} />
-
                 </Routes>
             </div>
         </Router>
