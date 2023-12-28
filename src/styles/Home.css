@@ -10,9 +10,9 @@
 
 .Welcome h1 {
     width: 100%;
-    font-size: 100px;
+    font-size: 8em;
     color: #57eee1;
-    margin-top: -400px;
+    margin-top: -4.25em;
     font-style: italic;
 }
 
@@ -20,5 +20,4 @@
     width: 100%;
     font-size: 30px;
     color: #3bcb7e;
-
 }
