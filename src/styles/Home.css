@@ -20,12 +20,12 @@
 
     /* Responsive font size adjustments */
     @media screen and (max-width: 768px) {
-        font-size: 3em;
+        font-size: 4em;
     }
 
-    @media screen and (max-width: 480px) {
-        font-size: 2em;
-    }
+    /*@media screen and (max-width: 480px) {*/
+    /*    font-size: 2em;*/
+    /*}*/
 }
 
 .Welcome p {
@@ -40,10 +40,10 @@
 
     /* Responsive font size adjustments */
     @media screen and (max-width: 768px) {
-        font-size: 0.75em;
+        font-size: 1em;
     }
 
-    @media screen and (max-width: 480px) {
-        font-size: 0.5em;
-    }
+    /*@media screen and (max-width: 480px) {*/
+    /*    font-size: 0.5em;*/
+    /*}*/
 }
