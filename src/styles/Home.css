@@ -2,9 +2,9 @@
     font-family: Playfair, serif;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Horizontally center the content */
-    align-items: center; /* Vertically center the content */
-    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
     text-align: center;
 }
 
@@ -12,21 +12,38 @@
     width: 100%;
     font-size: 8em;
     color: #4bceff;
-    margin-top: -4.25em;
     font-style: italic;
     text-shadow: -1px -1px 0 #ffff00,
     1px -1px 0 #ffff00,
     -1px 1px 0 #ffff00,
-    1px 1px 0 #ffff00; /* Set the outline color and size */
+    1px 1px 0 #ffff00;
+
+    /* Responsive font size adjustments */
+    @media screen and (max-width: 768px) {
+        font-size: 3em;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 2em;
+    }
 }
 
 .Welcome p {
     width: 100%;
-    font-size: 30px;
+    font-size: 2em;
     color: #ffff00;
     outline: gold;
     text-shadow: -1px -1px 0 #4bceff,
     1px -1px 0 #4bceff,
     -1px 1px 0 #4bceff,
-    1px 1px 0 #4bceff; /* Set the outline color and size */
+    1px 1px 0 #4bceff;
+
+    /* Responsive font size adjustments */
+    @media screen and (max-width: 768px) {
+        font-size: 0.75em;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 0.5em;
+    }
 }
