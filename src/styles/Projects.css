@@ -6,10 +6,25 @@
 .project-card {
     height: 80%;
     width: 80%;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.card-button {
+    background: #4bceff;
+    border: #4bceff;
+}
+
+.card-button:hover {
+    background: #008ab9;
+    border: #008ab9;
 }
 
 .fav_repos {
-    background: gold;
+    background: rgba(255, 255, 0, 0.7);
+    outline: yellow;
+    border: 2px solid #ffff00;
+    padding: 20px;
+    /*border-radius: 8px;*/
 }
 
 .project-image {

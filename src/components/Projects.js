@@ -91,7 +91,8 @@ function Projects() {
                                 <Button variant="primary"
                                         href={project.pageLink ? project.pageLink : project.html_url}
                                         target={project.pageLink ? null : "_blank"}
-                                        rel="noopener noreferrer">
+                                        rel="noopener noreferrer"
+                                        className="card-button">
                                     Go to Project
                                 </Button>
                             </Card.Body>

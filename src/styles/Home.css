@@ -11,13 +11,22 @@
 .Welcome h1 {
     width: 100%;
     font-size: 8em;
-    color: #57eee1;
+    color: #4bceff;
     margin-top: -4.25em;
     font-style: italic;
+    text-shadow: -1px -1px 0 #ffff00,
+    1px -1px 0 #ffff00,
+    -1px 1px 0 #ffff00,
+    1px 1px 0 #ffff00; /* Set the outline color and size */
 }
 
 .Welcome p {
     width: 100%;
     font-size: 30px;
-    color: #3bcb7e;
+    color: #ffff00;
+    outline: gold;
+    text-shadow: -1px -1px 0 #4bceff,
+    1px -1px 0 #4bceff,
+    -1px 1px 0 #4bceff,
+    1px 1px 0 #4bceff; /* Set the outline color and size */
 }
