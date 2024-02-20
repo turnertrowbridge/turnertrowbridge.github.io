@@ -9,18 +9,22 @@
   },
   {
     "id": 2,
-    "name": "Sudoku-Solver"
+    "name": "Workout_AWS_Project"
   },
   {
     "id": 3,
-    "name": "padres-roster"
+    "name": "Sudoku-Solver"
   },
   {
     "id": 4,
-    "name": "keybind_keychain"
+    "name": "padres-roster"
   },
   {
     "id": 5,
+    "name": "keybind_keychain"
+  },
+  {
+    "id": 6,
     "name": "Operating_Systems"
   }
 ]
