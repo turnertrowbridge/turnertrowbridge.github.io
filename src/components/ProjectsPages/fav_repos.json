@@ -5,7 +5,7 @@
   },
   {
     "id": 1,
-    "name": "Team1_2D-Platformer"
+    "name": "WorkoutFlaskWebsite"
   },
   {
     "id": 2,
@@ -26,5 +26,13 @@
   {
     "id": 6,
     "name": "Operating_Systems"
+  },
+  {
+    "id": 7,
+    "name": "Twitter_Flask_Clone"
+  },
+  {
+    "id": 8,
+    "name": "WordleOnCommandLine"
   }
 ]
