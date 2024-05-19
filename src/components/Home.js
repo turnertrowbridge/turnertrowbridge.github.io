@@ -11,7 +11,8 @@ function Home() {
     return (
         <div className="Welcome">
             <h1 id="h1">Turner Trowbridge</h1>
-            <p id="p1">Computer Science Major at San Diego State University</p>
+            <p id="p1">Recent Computer Science Graduate</p>
+            <p id="p2">San Diego State University (May 2024)</p>
         </div>
     );
 }

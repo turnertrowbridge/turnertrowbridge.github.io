@@ -47,3 +47,23 @@
     /*    font-size: 0.5em;*/
     /*}*/
 }
+
+.Welcome #p1 {
+    width: 100%;
+    font-size: 3em;
+    color: #ffff00;
+    outline: gold;
+    text-shadow: -1px -1px 0 #4bceff,
+    1px -1px 0 #4bceff,
+    -1px 1px 0 #4bceff,
+    1px 1px 0 #4bceff;
+
+    /* Responsive font size adjustments */
+    @media screen and (max-width: 768px) {
+        font-size: 1em;
+    }
+
+    /*@media screen and (max-width: 480px) {*/
+    /*    font-size: 0.5em;*/
+    /*}*/
+}
